@@ -21,5 +21,20 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Adrien Joly <contact@adrienjoly.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrienjoly/wunderlist-report.git"
+  },
+  "keywords": [
+    "productivity",
+    "motivation",
+    "daily",
+    "script",
+    "wunderlist"
+  ],
+  "bugs": {
+    "url": "https://github.com/adrienjoly/wunderlist-report/issues"
+  },
+  "homepage": "https://github.com/adrienjoly/wunderlist-report#readme"
 }
