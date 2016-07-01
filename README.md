@@ -2,7 +2,7 @@
 
 Congratulates you every evening by email for all the [Wunderlist](http://wunderlist.com) tasks that you checked during the day.
 
-## What does it do
+## What it does
 
 After deploying and setting up this script to your favorite server (e.g. a Heroku instance), the `run.js` script is meant to be run daily, and will:
 
@@ -15,7 +15,7 @@ I wrote this script to measure my day-to-day productivity, and also to motivate 
 
 1. Clone this repository locally, then `npm install`;
 2. Create a [Wunderlist developer account](https://developer.wunderlist.com);
-3. Create a [Wunderlist app]](https://developer.wunderlist.com/apps) => fill your app's client ID and client Secret in the `run.sh` file;
+3. Create a [Wunderlist app](https://developer.wunderlist.com/apps) => fill your app's client ID and client Secret in the `run.sh` file;
 4. Generate an access token by clicking the corresponding button, near your Wunderlist app => also fill it in the `run.sh` file;
 5. Create a [Sendgrid account](https://sendgrid.com) => fill the API key the `run.sh` file, when provided;
 6. Then, fill the `EMAIL_FROM` and `EMAIL_TO` fields of `run.sh`;
